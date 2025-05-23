@@ -1,4 +1,4 @@
 from datetime import datetime
 
-with open("oputput.txt", "w") as f:
+with open("output.txt", "w") as f:
   f.write(f"Hello")
