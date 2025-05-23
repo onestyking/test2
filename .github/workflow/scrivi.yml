@@ -2,7 +2,7 @@ name: Scrivi Hello World ogni 6 ore
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # Ogni minuto
+    - cron: '*/5 * * * *'  # Ogni 5 minuti
   workflow_dispatch:       # Permette l'esecuzione manuale
 
 jobs:
