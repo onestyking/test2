@@ -1,4 +1,4 @@
 
 with open("output.txt", "w") as f:
-    f.write("Hello, World!")
+    f.write("Hello,World!")
 
