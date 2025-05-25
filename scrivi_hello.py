@@ -1,4 +1,7 @@
-from datetime import datetime
+import telegram
 
-with open("output.txt", "w") as f:
-  f.write(f"Hello")
+TOKEN = "TUO_TOKEN_BOT"
+CHAT_ID = "TUO_CHAT_ID"
+
+bot = telegram.Bot(token=TOKEN)
+bot.send_message(chat_id=CHAT_ID, text="Ciao!")
